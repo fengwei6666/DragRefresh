@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4795441AA45A0200851B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795431AA45A0200851B63 /* main.m */; };
+		EF4795471AA45A0200851B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795461AA45A0200851B63 /* AppDelegate.m */; };
+		EF47954A1AA45A0200851B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795491AA45A0200851B63 /* ViewController.m */; };
+		EF47954D1AA45A0200851B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47954B1AA45A0200851B63 /* Main.storyboard */; };
+		EF47954F1AA45A0200851B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF47954E1AA45A0200851B63 /* Images.xcassets */; };
+		EF4795521AA45A0200851B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4795501AA45A0200851B63 /* LaunchScreen.xib */; };
+		EF47955E1AA45A0200851B63 /* UDDragRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47955D1AA45A0200851B63 /* UDDragRefreshDemoTests.m */; };
+		EF47956A1AA45A5000851B63 /* UDRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795691AA45A5000851B63 /* UDRefreshBaseView.m */; };
+		EF4795701AA45CCC00851B63 /* UDNomalRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47956F1AA45CCC00851B63 /* UDNomalRefreshHeaderView.m */; };
+		EF4795731AA45CF200851B63 /* UDNomalRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4795721AA45CF200851B63 /* UDNomalRefreshFooterView.m */; };
+		EF4795751AA45E6B00851B63 /* arrow_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4795741AA45E6B00851B63 /* arrow_new@2x.png */; };
+		EFAB26A21AA549370038D4E6 /* UDZ800RefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB26A11AA549370038D4E6 /* UDZ800RefreshHeaderView.m */; };
+		EFC8887E1AB4016500245DF3 /* YKDragRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8887D1AB4016500245DF3 /* YKDragRefreshTableView.m */; };
+		EFDD4EB01AA59D8F00A91924 /* temp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDD4EAF1AA59D8F00A91924 /* temp@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4795581AA45A0200851B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4795361AA45A0200851B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF47953D1AA45A0200851B63;
+			remoteInfo = UDDragRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF47953E1AA45A0200851B63 /* UDDragRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDDragRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4795421AA45A0200851B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4795431AA45A0200851B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4795451AA45A0200851B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF4795461AA45A0200851B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF4795481AA45A0200851B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF4795491AA45A0200851B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF47954C1AA45A0200851B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF47954E1AA45A0200851B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF4795511AA45A0200851B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF4795571AA45A0200851B63 /* UDDragRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDDragRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47955C1AA45A0200851B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47955D1AA45A0200851B63 /* UDDragRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDDragRefreshDemoTests.m; sourceTree = "<group>"; };
+		EF4795681AA45A5000851B63 /* UDRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDRefreshBaseView.h; sourceTree = "<group>"; };
+		EF4795691AA45A5000851B63 /* UDRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDRefreshBaseView.m; sourceTree = "<group>"; };
+		EF47956E1AA45CCC00851B63 /* UDNomalRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDNomalRefreshHeaderView.h; sourceTree = "<group>"; };
+		EF47956F1AA45CCC00851B63 /* UDNomalRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDNomalRefreshHeaderView.m; sourceTree = "<group>"; };
+		EF4795711AA45CF200851B63 /* UDNomalRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDNomalRefreshFooterView.h; sourceTree = "<group>"; };
+		EF4795721AA45CF200851B63 /* UDNomalRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDNomalRefreshFooterView.m; sourceTree = "<group>"; };
+		EF4795741AA45E6B00851B63 /* arrow_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_new@2x.png"; sourceTree = "<group>"; };
+		EFAB26A01AA549370038D4E6 /* UDZ800RefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDZ800RefreshHeaderView.h; sourceTree = "<group>"; };
+		EFAB26A11AA549370038D4E6 /* UDZ800RefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDZ800RefreshHeaderView.m; sourceTree = "<group>"; };
+		EFC8887C1AB4016500245DF3 /* YKDragRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKDragRefreshTableView.h; sourceTree = "<group>"; };
+		EFC8887D1AB4016500245DF3 /* YKDragRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKDragRefreshTableView.m; sourceTree = "<group>"; };
+		EFDD4EAF1AA59D8F00A91924 /* temp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temp@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF47953B1AA45A0200851B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4795541AA45A0200851B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4795351AA45A0200851B63 = {
+			isa = PBXGroup;
+			children = (
+				EF4795401AA45A0200851B63 /* UDDragRefreshDemo */,
+				EF47955A1AA45A0200851B63 /* UDDragRefreshDemoTests */,
+				EF47953F1AA45A0200851B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF47953F1AA45A0200851B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF47953E1AA45A0200851B63 /* UDDragRefreshDemo.app */,
+				EF4795571AA45A0200851B63 /* UDDragRefreshDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4795401AA45A0200851B63 /* UDDragRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF4795671AA45A3C00851B63 /* DragRefreshClasses */,
+				EF4795451AA45A0200851B63 /* AppDelegate.h */,
+				EF4795461AA45A0200851B63 /* AppDelegate.m */,
+				EF4795481AA45A0200851B63 /* ViewController.h */,
+				EF4795491AA45A0200851B63 /* ViewController.m */,
+				EFC8887C1AB4016500245DF3 /* YKDragRefreshTableView.h */,
+				EFC8887D1AB4016500245DF3 /* YKDragRefreshTableView.m */,
+				EF47954B1AA45A0200851B63 /* Main.storyboard */,
+				EF47954E1AA45A0200851B63 /* Images.xcassets */,
+				EF4795501AA45A0200851B63 /* LaunchScreen.xib */,
+				EF4795411AA45A0200851B63 /* Supporting Files */,
+			);
+			path = UDDragRefreshDemo;
+			sourceTree = "<group>";
+		};
+		EF4795411AA45A0200851B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDD4EAF1AA59D8F00A91924 /* temp@2x.png */,
+				EF4795741AA45E6B00851B63 /* arrow_new@2x.png */,
+				EF4795421AA45A0200851B63 /* Info.plist */,
+				EF4795431AA45A0200851B63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF47955A1AA45A0200851B63 /* UDDragRefreshDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF47955D1AA45A0200851B63 /* UDDragRefreshDemoTests.m */,
+				EF47955B1AA45A0200851B63 /* Supporting Files */,
+			);
+			path = UDDragRefreshDemoTests;
+			sourceTree = "<group>";
+		};
+		EF47955B1AA45A0200851B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF47955C1AA45A0200851B63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4795671AA45A3C00851B63 /* DragRefreshClasses */ = {
+			isa = PBXGroup;
+			children = (
+				EF4795681AA45A5000851B63 /* UDRefreshBaseView.h */,
+				EF4795691AA45A5000851B63 /* UDRefreshBaseView.m */,
+				EF47956E1AA45CCC00851B63 /* UDNomalRefreshHeaderView.h */,
+				EF47956F1AA45CCC00851B63 /* UDNomalRefreshHeaderView.m */,
+				EF4795711AA45CF200851B63 /* UDNomalRefreshFooterView.h */,
+				EF4795721AA45CF200851B63 /* UDNomalRefreshFooterView.m */,
+				EFAB26A01AA549370038D4E6 /* UDZ800RefreshHeaderView.h */,
+				EFAB26A11AA549370038D4E6 /* UDZ800RefreshHeaderView.m */,
+			);
+			path = DragRefreshClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF47953D1AA45A0200851B63 /* UDDragRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4795611AA45A0200851B63 /* Build configuration list for PBXNativeTarget "UDDragRefreshDemo" */;
+			buildPhases = (
+				EF47953A1AA45A0200851B63 /* Sources */,
+				EF47953B1AA45A0200851B63 /* Frameworks */,
+				EF47953C1AA45A0200851B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDDragRefreshDemo;
+			productName = UDDragRefreshDemo;
+			productReference = EF47953E1AA45A0200851B63 /* UDDragRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4795561AA45A0200851B63 /* UDDragRefreshDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4795641AA45A0200851B63 /* Build configuration list for PBXNativeTarget "UDDragRefreshDemoTests" */;
+			buildPhases = (
+				EF4795531AA45A0200851B63 /* Sources */,
+				EF4795541AA45A0200851B63 /* Frameworks */,
+				EF4795551AA45A0200851B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4795591AA45A0200851B63 /* PBXTargetDependency */,
+			);
+			name = UDDragRefreshDemoTests;
+			productName = UDDragRefreshDemoTests;
+			productReference = EF4795571AA45A0200851B63 /* UDDragRefreshDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4795361AA45A0200851B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UD;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "wei feng";
+				TargetAttributes = {
+					EF47953D1AA45A0200851B63 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF4795561AA45A0200851B63 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF47953D1AA45A0200851B63;
+					};
+				};
+			};
+			buildConfigurationList = EF4795391AA45A0200851B63 /* Build configuration list for PBXProject "UDDragRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4795351AA45A0200851B63;
+			productRefGroup = EF47953F1AA45A0200851B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF47953D1AA45A0200851B63 /* UDDragRefreshDemo */,
+				EF4795561AA45A0200851B63 /* UDDragRefreshDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF47953C1AA45A0200851B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47954D1AA45A0200851B63 /* Main.storyboard in Resources */,
+				EFDD4EB01AA59D8F00A91924 /* temp@2x.png in Resources */,
+				EF4795751AA45E6B00851B63 /* arrow_new@2x.png in Resources */,
+				EF4795521AA45A0200851B63 /* LaunchScreen.xib in Resources */,
+				EF47954F1AA45A0200851B63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4795551AA45A0200851B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF47953A1AA45A0200851B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47956A1AA45A5000851B63 /* UDRefreshBaseView.m in Sources */,
+				EF4795701AA45CCC00851B63 /* UDNomalRefreshHeaderView.m in Sources */,
+				EF47954A1AA45A0200851B63 /* ViewController.m in Sources */,
+				EFAB26A21AA549370038D4E6 /* UDZ800RefreshHeaderView.m in Sources */,
+				EF4795471AA45A0200851B63 /* AppDelegate.m in Sources */,
+				EF4795731AA45CF200851B63 /* UDNomalRefreshFooterView.m in Sources */,
+				EF4795441AA45A0200851B63 /* main.m in Sources */,
+				EFC8887E1AB4016500245DF3 /* YKDragRefreshTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4795531AA45A0200851B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47955E1AA45A0200851B63 /* UDDragRefreshDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4795591AA45A0200851B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF47953D1AA45A0200851B63 /* UDDragRefreshDemo */;
+			targetProxy = EF4795581AA45A0200851B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF47954B1AA45A0200851B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF47954C1AA45A0200851B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4795501AA45A0200851B63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4795511AA45A0200851B63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF47955F1AA45A0200851B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF4795601AA45A0200851B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4795621AA45A0200851B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UDDragRefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4795631AA45A0200851B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UDDragRefreshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4795651AA45A0200851B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UDDragRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDDragRefreshDemo.app/UDDragRefreshDemo";
+			};
+			name = Debug;
+		};
+		EF4795661AA45A0200851B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UDDragRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UDDragRefreshDemo.app/UDDragRefreshDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4795391AA45A0200851B63 /* Build configuration list for PBXProject "UDDragRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47955F1AA45A0200851B63 /* Debug */,
+				EF4795601AA45A0200851B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4795611AA45A0200851B63 /* Build configuration list for PBXNativeTarget "UDDragRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4795621AA45A0200851B63 /* Debug */,
+				EF4795631AA45A0200851B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4795641AA45A0200851B63 /* Build configuration list for PBXNativeTarget "UDDragRefreshDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4795651AA45A0200851B63 /* Debug */,
+				EF4795661AA45A0200851B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4795361AA45A0200851B63 /* Project object */;
+}
